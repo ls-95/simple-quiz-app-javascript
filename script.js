@@ -94,3 +94,8 @@ function selectAnswer(e) {
 }
 
 startQuiz();
+
+/*
+Array.from(....)
+answerButtons.children is a "HTMLCollection" (like a list of the child elements inside the answerButtons container). It behaves somewhat like an array, but it doesn't have all the methods that arrays do. So, to use array methods (like forEach), we convert this collection into a real array using Array.from()
+*/
